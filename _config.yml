@@ -10,6 +10,10 @@ encoding: "bom|utf-8"
 navigationLinks:
  - {permalink: '/about/', text: "About"}
  - {permalink: '/news/', text: "News"}
+ - {permalink: '/attend/', text: "Attend"}
+ - {permalink: '/attend/tickets/', text: "Tickets"}
+ - {permalink: '/volunteer/', text: "Volunteer"}
+ - {permalink: '/schedule/', text: "Schedule"}
  - {permalink: '/sponsor/', text: "Sponsor"}
  - {permalink: '/conduct/', text: "Conduct"}
 
@@ -21,6 +25,21 @@ conferenceDays:
  - Tuesday
 
 attendLinks:
+ - {permalink: '/attend/', text: "Attend"}
+ - {permalink: '/attend/accommodation', text: "Accommodation"}
+ - {permalink: '/attend/tickets', text: "Tickets"}
+ - {permalink: '/attend/ticket-tiers', text: "Ticket Tiers"}
+ - {permalink: '/attend/shirts', text: "Shirts"}
+ - {permalink: '/attend/badges/', text: "Badges"}
+ - {permalink: '/menu/', text: "Menu"}
+
+menuLinks:
+ - {permalink: '/menu/', text: "Menu"}
+ - {permalink: '/menu/friday', text: "Friday"}
+ - {permalink: '/menu/saturday', text: "Saturday"}
+ - {permalink: '/menu/sunday', text: "Sunday"}
+ - {permalink: '/menu/monday', text: "Monday"}
+ - {permalink: '/menu/tuesday', text: "Tuesday"}
 
 include: 
  - _pages
@@ -31,6 +50,7 @@ exclude:
  - Gemfile
  - Gemfile.lock
  - new_post
+ - vendor
 
 future: true
 
@@ -39,7 +59,7 @@ timezone: "AEST"
 collections:
     talks:  
         output: true
-        permalink: /:collection/:name/
+        permalink: /:collection/:title/
 
 plugins:
   - jemoji

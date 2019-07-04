@@ -22,14 +22,14 @@ team:
       track: django
       title: Papers Chair
     - name: Russell Keith-Magee
-      thumbnailUrl: russell-keithmagee.png
+      thumbnailUrl: russell-keith-magee.jpg
       twitter: freakboy3742
       track: education
       title: Treasurer
     - name: Jack Skinner
       thumbnailUrl: jack-skinner.png
       twitter: developerjack
-      track: iot
+      track: science
       title: Operations
 
 ---

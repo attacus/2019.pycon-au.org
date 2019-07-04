@@ -3,7 +3,8 @@
     sponsors:
     - name: Spriggy
       logo: spriggy.png
-      link: https://www.spriggy.com.au
+      link: spriggy.com.au
+      href: https://www.spriggy.com.au
       twitter: spriggyofficial
       blurb: | 
         Spriggy is a rapidly growing Australian start-up, based in Sydney.
@@ -39,7 +40,8 @@
     - name: WSP
       logo: wsp.png
       twitter: WSP_ANZ
-      link: https://www.wspdigital.com/ 
+      link: wspdigital.com
+      href: https://www.wspdigital.com/ 
       blurb: |
         WSP Digital is the software engineering division of WSP, a publicly listed
         global consulting engineering company with over 50,000 employees in more than
@@ -62,18 +64,70 @@
         produce and the talent and commitment of our team.
 
 
+    - name: Python Software Foundation
+      twitter: ThePSF
+      link: python.org/psf
+      logo: psf.png
+      href: https://www.python.org/psf/
+      colspan: 12
+      blurb: | 
+        The mission of the Python Software Foundation is to promote, protect, and
+        advance the Python programming language, and to support and facilitate the
+        growth of a diverse and international community of Python programmers. The
+        majority of the PSF's work is focused on empowering and supporting people
+        within the Python community. The PSF has active grant programs that support
+        sprints, conferences, meet ups, user groups, and Python development efforts all
+        over the world. In addition, the PSF underwrites and runs PyCon US, the primary
+        Python community conference. Being part of the PSF means being part of the
+        Python community. Recently we changed the PSF to an open membership
+        organization, so that everyone who uses and supports Python can join. To learn
+        more, visit <a href="https://www.python.org/psf/membership">python.org/psf/membership</a>.
+
 - title: Gold Sponsors
-  placeholder: true
   sponsors:
-    - name: Your Company Here
-      logo: gold_placeholder_logo.png
-      placeholder: true
+    - name: AWS
+      logo: aws.png
+      link: bit.ly/AMZN_PyConAU 
+      href: http://bit.ly/AMZN_PyConAU 
       blurb: |
-        PyCon AU 2019 can only operate with the generosity of our sponsors.
-        If you are interested in helping our event, please see our <a
-        href="https://2019.pycon-au.org/news/call-for-sponsorship/">Call for Sponsors</a>
-        and download our <a href="https://2019.pycon-au.org/prospectus.pdf">prospectus</a>
-        <br><br>Gold sponsorship is limited to six sponsors only
+        Amazon Web Services is the earth’s most customer centric company.  In Sydney,
+        we have sizeable software and networking engineering teams, owning global
+        services and software problems. We use Python to build, support, and scale AWS
+        services and the network where we aim to inspire developers to build and
+        innovate. We are focused on scaling ahead of customer demand to continue
+        delighting our customers. Amazon was recently voted one of the best places to
+        work.  Come find us in the breaks at PyCon AU and ask us for some more details
+        around the problems we’re trying to solve. We look forward to meeting you
+        during PyCon AU!  <br><BR> If you’re a developer or engineer with Python skills
+        and want to have global impact, check out our open Sydney based positions
+        <a href="http://bit.ly/AMZN_PyConAU">http://bit.ly/AMZN_PyConAU</a>
+
+    - name: Rokt
+      logo: rokt.png
+      twitter: Rokt
+      link: rokt.com
+      href: https://rokt.com/engineering-blog/
+      blurb: | 
+        Rokt is a global technology company whose core mission is to make the
+        e-commerce transaction smarter by optimizing the checkout for each individual
+        across products, UX and campaigns. Rokt's algorithmic engine powers product
+        solutions including Commerce that helps brands get smarter in the transaction,
+        Acquire that helps marketers acquire customers in the Transaction Moment and
+        CalReply that helps brands drive timely action through their calendar. Founded
+        in Sydney in 2012, Rokt's world-class product and engineering team is based in
+        Australia, with customers in the US, Canada, UK, France, Germany, Australia,
+        New Zealand, Singapore, The Netherlands and Japan.
+
+
+    - name: Facebook
+      logo: fb.png
+      link: tinyurl.com/pyfbjobs2019
+      href: https://tinyurl.com/pyfbjobs2019
+      blurb: |
+        Our mission at Facebook is to give people the power to build community
+        and bring the world closer together.  As extensive users of Python at Facebook,
+        we are proud to support PyCon AU and the broader Python community.  <br><br>Interested
+        in Python jobs? Check out: <a href="https://tinyurl.com/pyfbjobs2019">https://tinyurl.com/pyfbjobs2019</a>
 
 - 
     title: Sponsors
@@ -81,7 +135,8 @@
     - name: Grok Learning
       logo: grok_learning.png
       twitter: groklearning
-      link: https://groklearning.com/
+      link: groklearning.com
+      href: https://groklearning.com/
       blurb: |
         Fun fact - In 2019 every school kid in Australia from Grades 3-8 is learning to
         code. And lots of them are doing it through courses on Grok Learning.
@@ -118,14 +173,118 @@
         and contributes to improvements in the Web industry, both technical and social.<br><br>
         The Django Software Foundation is the Specialist Track Sponsor of DjangoCon AU 2019
 
+    - name: Biarri
+      logo: biarri.png
+      link: biarri.com
+      href: https://biarri.com/
+      blurb: |
+        Biarri is a world leader at solving business problems through intuitive
+        SaaS solutions powered mathematical engines. We work with awesome people on
+        rewarding and complex problems across Rail, Transportation, Telecommunications,
+        Resources, and Healthcare delivering systems to make businesses more efficient.
+        <br><br>
+        If you want to find out more about the work that we do at Biarri and the
+        technology that powers our optimisation solutions come and talk to us at PyCon
+        AU!
+
+    - name: kmo
+      logo: kmo.png
+      link: kmo.com.au
+      href: https://www.kmo.com.au/
+      blurb: | 
+        kmo is web design and development company providing innovative solutions to our
+        customers' business needs. We work extensively in developing systems for
+        integrating customer's line of business software with their online presence.
+        <br><BR>
+        Whether synchronising inventory between an online store and in-store point of
+        sale or inventory management systems or communication with third-party ordering
+        or booking systems, kmo have a wealth of expertise from developing numerous
+        software projects and working with a multitude of third party systems to create
+        solutions that provide value to our client's business. These have included
+        process automation, data migration and transformation, systems integration and
+        customised search capabilities for customer's across a multitude of industries.
+        We work alongside both clients and agencies, feel free to contact us for more
+        information.
+
+    - name: elastic
+      logo: elastic.png
+      link: elastic.co
+      twitter: elastic
+      href: https://www.elastic.co/
+      blurb: | 
+        Elastic is a search company. As the creators of the Elastic Stack
+        (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and
+        SaaS offerings that make data usable in real time and at scale for search,
+        logging, security, and analytics use cases. Since its founding in 2012, there
+        have been more than 350 million cumulative downloads of Elastic software. The
+        Elastic community is 100,000 members strong. Thousands of organizations
+        worldwide, including Cisco, eBay, Goldman Sachs, Microsoft, The Mayo Clinic,
+        NASA, The New York Times, Wikipedia, and Verizon, use Elastic to power
+        mission-critical systems. Elastic is a distributed company with more than 1,000
+        Elasticians working in 30 countries. Learn more at <a href="https://www.elastic.co/">elastic.co</a>
+
+    - name: onepoint
+      logo: onepoint.png
+      link: groupeonepoint.com
+      href: https://www.groupeonepoint.com/en/
+      twitter: onepoint
+      blurb: | 
+        onepoint is a global consulting organization that breaks away from the traditional players. We believe in a human-centered innovation. From management advisory to tech delivery, we foster multi-disciplinary teams with a high degree of collaboration and autonomy. <br><br>As market leader in data-driven and design centric software solutions, we believe Python skills are paramount. We recently landed in Australia and recruit the best talents attracted by an employee-first culture.<br><BR>Come and join the 2,300 authentic people of onepoint.
+
+    - name: yubico
+      link: yubico.com
+      href: https://www.yubico.com
+      logo: yubico.png
+      twitter: yubico
+      blurb: |
+        Yubico sets new global standards for simple and secure access to computers, mobile devices, servers, and internet accounts. <BR><BR>The company's core invention, the YubiKey, delivers strong hardware protection, with a simple touch, across any number of IT systems and online services. The YubiHSM, Yubico's ultra-portable hardware security module, protects sensitive data stored in servers.<br><BR>Yubico is a leading contributor to both the FIDO2, WebAuthn and FIDO Universal 2nd Factor open authentication standards, and the company's technology is deployed and loved by 9 of the top 10 internet brands and by millions of users in 160 countries.<br><BR>Founded in 2007, Yubico is privately held, with offices in Sweden, UK, Germany, USA, Australia, and Singapore. For more information: <a href="https://yubico.com">www.yubico.com</a>
+
+
+    - name: Stripe
+      link: stripe.com/jobs
+      href: https://stripe.com/jobs
+      twitter: stripeaustralia
+      logo: stripe.png
+      blurb: |
+          Stripe is a technology company that builds economic infrastructure for
+          the internet. Businesses of every size -- from new startups to public companies
+          like Salesforce and Facebook -- use the company's software to accept online
+          payments and run technically sophisticated financial operations in more than
+          100 countries. Stripe helps new companies get started and grow their revenues,
+          and established businesses accelerate into new markets and launch new
+          business models. Over the long term, Stripe aims to increase the GDP of the
+          internet.
+
+    - name: Auth0
+      link: auth0.com
+      href: https://auth0.com
+      logo: auth0.png
+      twitter: auth0
+      blurb: | 
+        Auth0 is a global leader in Identity-as-a-Service (IDaaS) and provides
+        thousands of enterprise customers with a Universal Identity Platform for their
+        web, mobile, IoT, and internal applications, securing more than 2.5B logins per
+        month. Auth0's key competitive differentiator is the extensibility of its
+        developer-centric platform, enabling developers to quickly integrate identity
+        into their applications so they can dedicate their time to product innovation.
+        Auth0's Sydney office caters to 830 customers in Australia and New Zealand,
+        including SiteMinder, CarsGuide, Servcorp, ME Bank, SkyTV, and Foodstuffs. For
+        more information, please visit <a href="https://auth0.com">https://auth0.com</a>
+
+
 - 
   title: Auspice
   sponsors: 
     - name: Linux Australia
       logo: LinuxAustralia.png
       twitter: linuxaustralia
+      colspan: 12
       link: linux.org.au
       href: https://linux.org.au
       blurb: | 
-        Linux Australia is the peak body for Open Source communities in
-        Australia. PyCon AU 2019 is run under the auspice of Linux Australia. 
+          Linux Australia is the peak body of Open Source communities in
+          Australia. Linux Australia represents approximately 5000 Australian users and
+          developers of Free Software and Open Technologies, and facilitates
+          internationally-renowned events including linux.conf.au – Australasia’s
+          grassroots Free and Open Source Software Conference. <br><br>PyCon AU 2019 is
+          run under the auspice of Linux Australia. 
